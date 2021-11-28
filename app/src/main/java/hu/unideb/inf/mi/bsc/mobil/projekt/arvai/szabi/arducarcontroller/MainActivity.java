@@ -204,7 +204,6 @@ public class MainActivity extends AppCompatActivity {
             steerLeft.setAlpha(.1F);
             mSense.setClickable(false);
             mSense.setAlpha(.1F);
-            btIcon.setImageResource((R.drawable.ic_bt_on_foreground));
         }
         else
         {
@@ -218,7 +217,6 @@ public class MainActivity extends AppCompatActivity {
             steerLeft.setAlpha(1);
             mSense.setClickable(true);
             mSense.setAlpha(1);
-            btIcon.setImageResource(R.drawable.ic_bt_con_foreground);
         }
     }
 
