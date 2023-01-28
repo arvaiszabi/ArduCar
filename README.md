@@ -1,5 +1,5 @@
 # ArduCar
-## Small robotic car with Aruino and Android controll.
+## Small robotic car with Arduino and Android controll.
 
 <p align="justify"> ArduCar is an Arduino based four wheel drived robotic car. Its body has designed by me and the parts printed with a Creality Ender 5 3D printer. 
 The Arduino is instructed over Bluetooth connection, any mobile phone or tablet - which running at least Android 11 - can run the controller GUI program.
