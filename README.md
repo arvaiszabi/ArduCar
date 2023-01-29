@@ -1,7 +1,7 @@
 # ArduCar
 ## Small robotic car with Arduino and Android controll.
 
-<p align="justify"> ArduCar is an Arduino based four wheel drived robotic car. Its body has designed by me and the parts printed with a Creality Ender 5 3D printer. 
+<p align="justify"> ArduCar is a basic Arduino based four wheel drived robotic car. Its body has designed by me and the parts printed with a Creality Ender 5 3D printer. 
 The Arduino is instructed over Bluetooth connection, any mobile phone or tablet - which running at least Android 11 - can run the controller GUI program.
 The application is also built by my own, developed with Android Studio. The user can drive the car with buttons, or another - very intersting - way, utilizing 
 the accelerometer built in the user's mobile device. Only have to tilt the device to the desired direction. I have built a little practice feature into it, so this 
@@ -18,3 +18,7 @@ degree of tilt.</p>
   + 4 pcs of RM-17 motor (voltage range: 3-6V)
   + L9110S-M 2x H-Bridge motor driver modul
   + 4 pcs 18650 Li-ion battery cell (4S configuration)
+
+![car_1](https://user-images.githubusercontent.com/79312187/215330966-6eef3391-858f-46f6-913b-ec0a7817502b.png)
+
+![car_2](https://user-images.githubusercontent.com/79312187/215330969-948890a4-82d1-48c6-abfc-8373160a9700.png)
