@@ -19,29 +19,32 @@ void setup()
 
 void loop()
 {
-  if (bluetooth.available() > 0) inputC = (bluetooth.read());
-  //Serial.print(inputC);
-  switch (inputC)
+  if (bluetooth.available() > 0) 
   {
-    case 'F':
-      forward();
-      break;
+    inputC = (bluetooth.read());
+    //Serial.print(inputC);
+    switch (inputC)
+    {
+      case 'F':
+        forward();
+        break;
 
-    case 'B':
-      backward();
-      break;
+      case 'B':
+        backward();
+        break;
 
-    case 'L':
-      turnleft();
-      break;
+      case 'L':
+        turnleft();
+        break;
 
-    case 'R':
-    turnright();
-    break;
+      case 'R':
+        turnright();
+        break;
 
-    case 'S':
-    stopping();
-    break;
+      case 'S':
+        stopping();
+        break;
+    }
   }
 }
 
